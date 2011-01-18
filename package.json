@@ -1,0 +1,12 @@
+{
+	"name":		"libGeoIP",
+	"version":	"0.0.1",
+	"description":	"libGeoIP bindings",
+	"homepage":	"https://github.com/bcantrill/node-libGeoIP",
+	"author":	"Bryan Cantrill",
+	"engines":	{ "node": "*" },
+	"main":		"./build/default/libGeoIP",
+	"scripts": {
+		"install": "node-waf configure build"
+	}
+}
